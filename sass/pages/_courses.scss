@@ -1,0 +1,310 @@
+@use "../abstract/functions";
+@use "../abstract/colors";
+.section-home__page {
+  padding: 100px 0 0 0;
+  .section-home {
+    padding: 16px 0 0 0;
+    .section-home__p {
+      padding: 15px 12px 0 0;
+      font-family: "Montserrat";
+      font-size: 16px;
+      line-height: 32px;
+      color: colors.$text-secondary;
+    }
+    .section-home__text {
+      padding: 15px 0 0 12px;
+      font-family: "Montserrat";
+      font-size: 16px;
+      line-height: 32px;
+    }
+  }
+}
+.section-programming {
+  h1 {
+    @include functions.font(
+      "Rubik",
+      normal,
+      700,
+      64px,
+      88px,
+      colors.$text-Qoramtir
+    );
+  }
+  .section-home__texts {
+    width: 712px;
+    height: 54px;
+    @include functions.font(
+      "Montserrat",
+      normal,
+      400,
+      16px,
+      27px,
+      colors.$text-secondary
+    );
+  }
+  h6 {
+    @include functions.font(
+      "Rubik",
+      normal,
+      700,
+      32px,
+      48px,
+      colors.$text-Qoramtir
+    );
+  }
+  .cards {
+    padding: 40px 0 0 0;
+    .card {
+      width: 280px;
+      margin-left: 2px;
+      border: none;
+      transition: 1.5s;
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      }
+      img {
+        margin-top: 10px;
+      }
+      .btn-card {
+        display: flex;
+        justify-content: center;
+      }
+      .cards-title {
+        h6 {
+          @include functions.font(
+            "Rubik",
+            normal,
+            500,
+            16px,
+            24px,
+            colors.$text-Qoramtir
+          );
+        }
+        b {
+          font-family: "Montserrat";
+          font-size: 12px;
+          line-height: 24px;
+          color: colors.$bg-danger;
+        }
+        .card-icons {
+          img {
+            padding: 0 4px 0 0;
+          }
+          b {
+            padding: 10px 0 0 10px;
+            font-family: "Montserrat";
+            font-size: 14px;
+            line-height: 24px;
+            color: #808080;
+          }
+        }
+        .card-del {
+          del {
+            @include functions.font(
+              "Montserrat",
+              normal,
+              400,
+              16px,
+              27px,
+              colors.$text-color
+            );
+          }
+          h3 {
+            @include functions.font(
+              "Rubik",
+              normal,
+              500,
+              24px,
+              32px,
+              colors.$text-Qoramtir
+            );
+            padding: 8px 0 0 8px;
+          }
+        }
+      }
+    }
+  }
+}
+.section-top_programming {
+  .section-top__text {
+    h2 {
+      @include functions.font(
+        "Rubik",
+        normal,
+        700,
+        48px,
+        64px,
+        colors.$text-Qoramtir
+      );
+    }
+    button {
+      width: 258px;
+      background: colors.$bg-danger;
+      border-radius: 8px;
+      @include functions.font(
+        "Montserrat",
+        normal,
+        700,
+        16px,
+        32px,
+        colors.$bg-white
+      );
+    }
+  }
+  .categories-top {
+    padding: 0 16px 16px 0;
+    .categories-art {
+      height: 350px;
+      background: #000000;
+      opacity: 0.5;
+      border-radius: 8px;
+      text-align: center;
+      padding: 278px 0 0 0;
+      @include functions.font(
+        "Rubik",
+        normal,
+        500,
+        24px,
+        32px,
+        colors.$bg-white
+      );
+    }
+  }
+}
+.bottom-carusels {
+  h1 {
+    @include functions.font(
+      "Rubik",
+      normal,
+      700,
+      48px,
+      64px,
+      colors.$text-Qoramtir
+    );
+  }
+  .bottom-section {
+    padding: 16px 40px;
+    background: #fff5f9;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 32px;
+    color: colors.$bg-danger;
+  }
+  .bottom-section2 {
+    width: 224px;
+    height: 64px;
+    background: colors.$bg-danger;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 32px;
+    color: colors.$bg-white;
+  }
+}
+
+.bottom-carusels__card {
+  .cards {
+    padding: 40px 0 0 0;
+    .class-carusel {
+      @include functions.font(
+        "Rubik",
+        normal,
+        700,
+        24px,
+        32px,
+        colors.$text-Qoramtir
+      );
+    }
+    .label {
+      div {
+        img {
+          margin-top: -1px;
+        }
+        b {
+          padding: 2px 4px 0 4px;
+          font-family: "Montserrat";
+          font-size: 14px;
+          line-height: 24px;
+          color: colors.$text-Qoramtir;
+        }
+        span {
+          padding: 2px 0 0 0;
+          font-family: "Montserrat";
+          font-size: 14px;
+          line-height: 24px;
+          color: colors.$text-secondary;
+        }
+      }
+    }
+    .card {
+      width: 280px;
+      margin-left: 2px;
+      border: none;
+      transition: 1.5s;
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      }
+      img {
+        margin-top: 10px;
+      }
+      .btn-card {
+        display: flex;
+        justify-content: center;
+      }
+      .cards-title {
+        h6 {
+          @include functions.font(
+            "Rubik",
+            normal,
+            500,
+            16px,
+            24px,
+            colors.$text-Qoramtir
+          );
+        }
+        b {
+          font-family: "Montserrat";
+          font-size: 12px;
+          line-height: 24px;
+          color: colors.$bg-danger;
+        }
+        .card-icons {
+          img {
+            padding: 0 4px 0 0;
+          }
+          b {
+            padding: 10px 0 0 10px;
+            font-family: "Montserrat";
+            font-size: 14px;
+            line-height: 24px;
+            color: #808080;
+          }
+        }
+        .card-del {
+          del {
+            @include functions.font(
+              "Montserrat",
+              normal,
+              400,
+              16px,
+              27px,
+              colors.$text-color
+            );
+          }
+          h3 {
+            @include functions.font(
+              "Rubik",
+              normal,
+              500,
+              24px,
+              32px,
+              colors.$text-Qoramtir
+            );
+            padding: 8px 0 0 8px;
+          }
+        }
+      }
+    }
+  }
+}

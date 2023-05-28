@@ -1,0 +1,544 @@
+@use "../abstract/colors";
+@use "../abstract/functions";
+.bg-section {
+  max-width: 96%;
+  margin: 0px 40px;
+  background: colors.$bg-dark;
+  border-radius: 8px;
+  .header-texts {
+    .header-text {
+      h1 {
+        padding: 88px 0 0 0;
+        @include functions.font(
+          "Rubik",
+          normal,
+          700,
+          64px,
+          88px,
+          colors.$bg-white
+        );
+      }
+      p {
+        padding: 24px 0 0 0;
+        @include functions.font(
+          "Montserrat",
+          normal,
+          400,
+          16px,
+          27px,
+          colors.$bg-white
+        );
+      }
+      form {
+        padding: 66px 0 0 0;
+        align-items: center;
+        height: 80px;
+        width: 510px;
+        border: 1px solid colors.$bg-white;
+        padding: 0 0 0 16px;
+        border-radius: 8px;
+        background-color: colors.$bg-white;
+        img {
+          width: 19px;
+          height: 19px;
+        }
+        input {
+          width: 343px;
+          height: 75px;
+          border: none;
+          outline: none;
+          padding: 0 0 0 10px;
+        }
+        button {
+          width: 121px;
+          height: 56px;
+          background: colors.$bg-danger;
+          border-radius: 8px;
+          font-family: "Montserrat";
+          font-size: 16px;
+          line-height: 32px;
+          color: colors.$bg-white;
+        }
+      }
+      .icons {
+        max-width: 100%;
+        padding: 56px 0 88px 0;
+        .clock {
+          padding: 0 19px 0 0;
+          @include functions.font(
+            "Rubik",
+            normal,
+            700,
+            16px,
+            24px,
+            colors.$bg-white
+          );
+          align-items: center;
+        }
+        .user {
+          padding: 0 20px 0 0;
+          @include functions.font(
+            "Rubik",
+            normal,
+            700,
+            16px,
+            24px,
+            colors.$bg-white
+          );
+        }
+        .video {
+          @include functions.font(
+            "Rubik",
+            normal,
+            700,
+            16px,
+            24px,
+            colors.$bg-white
+          );
+        }
+      }
+    }
+    .header-img {
+      .header-div_1 {
+        position: absolute;
+      }
+      .header-img_1 {
+        width: 670px;
+        margin-left: -136px;
+      }
+      .header-div_2 {
+        position: absolute;
+        // top: 175px;
+      }
+      .header-img_2 {
+        max-width: 100%;
+        margin-top: -585px;
+      }
+      .header-div_3 {
+        position: absolute;
+        // bottom: 352px;
+      }
+      .header-img_3 {
+        max-width: 100%;
+        margin-left: 71px;
+        margin-top: -972px;
+      }
+      .header-div_4 {
+        position: absolute;
+      }
+      .header-img_4 {
+        max-width: 100%;
+        margin-left: 442px;
+        margin-top: -504px;
+      }
+      .header-div_5 {
+        position: absolute;
+      }
+      .header-img_5 {
+        max-width: 100%;
+        margin-left: 47px;
+        margin-top: -204px;
+      }
+      .header-div_6 {
+        position: absolute;
+      }
+      .header-img_6 {
+        max-width: 100%;
+        margin-left: 315px;
+        margin-top: -61px;
+      }
+    }
+  }
+}
+.bg-card {
+  padding: 88px 0 0 0;
+  h1 {
+    padding: 0 0 56px 0;
+    text-align: center;
+    @include functions.font(
+      "Rubik",
+      normal,
+      700,
+      48px,
+      64px,
+      colors.$text-Qoramtir
+    );
+  }
+  .btn-all {
+    padding: 0 0 32px 0;
+    text-align: center;
+    .btn-all-1 {
+      font-family: "Montserrat";
+      font-size: 16px;
+      line-height: 32px;
+      width: 167px;
+      height: 48px;
+      color: #ffffff;
+      background: #f72585;
+      border-radius: 8px;
+    }
+    .btn-all-2 {
+      font-family: "Montserrat";
+      font-size: 16px;
+      line-height: 32px;
+      width: 167px;
+      height: 48px;
+      color: #222;
+      &:hover {
+        color: #ffffff;
+        background: #f72585;
+        border-radius: 8px;
+        transition: 2s;
+      }
+    }
+  }
+  .cards {
+    padding: 40px 0 0 0;
+    .card {
+      width: 280px;
+      margin-left: 2px;
+      border: none;
+      transition: 1.5s;
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      }
+      img {
+        margin-top: 10px;
+      }
+      .btn-card {
+        display: flex;
+        justify-content: center;
+      }
+      .cards-title {
+        h6 {
+          @include functions.font(
+            "Rubik",
+            normal,
+            500,
+            16px,
+            24px,
+            colors.$text-Qoramtir
+          );
+        }
+        b {
+          font-family: "Montserrat";
+          font-size: 12px;
+          line-height: 24px;
+          color: colors.$bg-danger;
+        }
+        .card-icons {
+          img {
+            padding: 0 4px 0 0;
+          }
+          b {
+            padding: 10px 0 0 10px;
+            font-family: "Montserrat";
+            font-size: 14px;
+            line-height: 24px;
+            color: #808080;
+          }
+        }
+        .card-del {
+          del {
+            @include functions.font(
+              "Montserrat",
+              normal,
+              400,
+              16px,
+              27px,
+              colors.$text-color
+            );
+          }
+          h3 {
+            @include functions.font(
+              "Rubik",
+              normal,
+              500,
+              24px,
+              32px,
+              colors.$text-Qoramtir
+            );
+            padding: 8px 0 0 8px;
+          }
+        }
+      }
+    }
+  }
+  .btn-more {
+    margin: 0 auto;
+    width: 280px;
+    background: colors.$bg-danger;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 32px;
+    color: colors.$bg-white;
+  }
+}
+.categories {
+  h1 {
+    padding: 160px 0 56px 0;
+    @include functions.font(
+      "Rubik",
+      normal,
+      700,
+      48px,
+      64px,
+      colors.$text-Qoramtir
+    );
+  }
+  .categories-top {
+    padding: 0 16px 16px 0;
+    .categories-art {
+      height: 350px;
+      background: #000000;
+      opacity: 0.5;
+      border-radius: 8px;
+      text-align: center;
+      padding: 278px 0 0 0;
+      @include functions.font(
+        "Rubik",
+        normal,
+        500,
+        24px,
+        32px,
+        colors.$bg-white
+      );
+    }
+  }
+}
+.section-icons {
+  padding: 150px 0 0 0;
+  .section-img {
+    img {
+      width: 100%;
+    }
+  }
+  .section-icon__texts {
+    padding: 10px 0 0 0;
+    .section-icon__text {
+      @include functions.font(
+        "Rubik",
+        normal,
+        700,
+        32px,
+        48px,
+        colors.$text-Qoramtir
+      );
+      text-transform: capitalize;
+      text-align: center;
+    }
+    .section-icon__p {
+      @include functions.font(
+        "Rubik",
+        normal,
+        400,
+        24px,
+        32px,
+        colors.$text-Qoramtir
+      );
+      text-align: center;
+    }
+  }
+  .section-img1 {
+    padding: 10px 0 0 0;
+    img {
+      width: 100%;
+    }
+  }
+  .section-icon__texts1 {
+    padding: 17px 0 0 0;
+    .section-icon__text1 {
+      @include functions.font(
+        "Rubik",
+        normal,
+        700,
+        32px,
+        48px,
+        colors.$text-Qoramtir
+      );
+      text-transform: capitalize;
+      text-align: center;
+    }
+    .section-icon__p1 {
+      padding: 1px 0 0 0;
+      @include functions.font(
+        "Rubik",
+        normal,
+        400,
+        24px,
+        32px,
+        colors.$text-Qoramtir
+      );
+      text-align: center;
+    }
+  }
+  .section-imgs {
+    display: flex;
+    justify-content: end;
+  }
+}
+.section-back {
+  .section-bg {
+    height: 657px;
+    background: #cccccc;
+    border-radius: 8px;
+  }
+  .section-becom {
+    padding: 0 0 0 56px;
+    h1 {
+      @include functions.font(
+        "Rubik",
+        normal,
+        700,
+        48px,
+        64px,
+        colors.$text-Qoramtir
+      );
+    }
+    p {
+      @include functions.font(
+        "Rubik",
+        normal,
+        400,
+        16px,
+        27px,
+        colors.$text-secondary
+      );
+    }
+    .section-btn {
+      padding: 16px 40px;
+      background: #f72585;
+      border-radius: 8px;
+      font-family: "Montserrat";
+      font-size: 16px;
+      line-height: 32px;
+      color: #ffffff;
+    }
+  }
+}
+.corusel {
+  padding: 160px 0 0 0;
+  .corusel-img {
+    padding: 0 0 0 40px;
+
+    .corusel-acc {
+      position: absolute;
+      margin-top: -143px;
+      margin-left: -30px;
+    }
+  }
+  .carousel-texts {
+    padding: 70px 0 0 48px;
+    .carousel-p {
+      @include functions.font(
+        "Rubik",
+        normal,
+        400,
+        32px,
+        48px,
+        colors.$text-Qoramtir
+      );
+    }
+    h6 {
+      @include functions.font(
+        "Rubik",
+        normal,
+        500,
+        24px,
+        32px,
+        colors.$text-Qoramtir
+      );
+    }
+    .carousel-p__little {
+      font-family: "Montserrat";
+      font-size: 14px;
+      line-height: 24px;
+      color: colors.$text-secondary;
+    }
+  }
+}
+.section-icons {
+  h1 {
+    @include functions.font(
+      "Rubik",
+      normal,
+      700,
+      48px,
+      64px,
+      colors.$text-Qoramtir
+    );
+    text-align: center;
+  }
+  .section-icons__grid {
+    padding: 71px 0 0 0;
+  }
+}
+.section-bottom {
+  padding: 100px 0 0 0;
+  h1 {
+    padding: 0 0 46px 0;
+    @include functions.font(
+      "Rubik",
+      normal,
+      700,
+      48px,
+      64px,
+      colors.$text-Qoramtir
+    );
+  }
+  .section-bottom__img {
+    width: 350px;
+    border: none;
+    margin-left: 20px;
+    &:hover {
+      transition: 1.5s;
+      box-shadow: 10px 10px 10px 2px rgba(100, 100, 111, 0.2);
+    }
+    img {
+      width: 94%;
+      padding: 8px 0 0 0;
+      margin: 0 auto;
+    }
+    .section-bottom__texts {
+      span {
+        @include functions.font(
+          "Montserrat",
+          normal,
+          400,
+          14px,
+          24px,
+          colors.$text-secondary
+        );
+      }
+      h5 {
+        @include functions.font(
+          "Rubik",
+          normal,
+          700,
+          24px,
+          32px,
+          colors.$text-Qoramtir
+        );
+      }
+      p {
+        @include functions.font(
+          "Montserrat",
+          normal,
+          400,
+          16px,
+          27px,
+          colors.$text-secondary
+        );
+      }
+      a {
+        font-family: "Montserrat";
+        font-size: 16px;
+        line-height: 32px;
+        border: none;
+        background: colors.$bg-white;
+        color: colors.$bg-danger;
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+@use "../abstract/functions";
+@use "../abstract/colors";
+.bg-footer__top {
+  padding: 70px 0 20px 0;
+  .bg-footer {
+    padding: 80px 0 0 0;
+    max-width: 96%;
+    background: colors.$bg-dark;
+    border-radius: 8px;
+    margin: 0 auto;
+    .bg-footer__logo {
+      p {
+        padding: 36px 0 0 0;
+        @include functions.font(
+          "Montserrat",
+          normal,
+          400,
+          16px,
+          27px,
+          colors.$bg-white
+        );
+      }
+    }
+    .bg-footer__ul {
+      ul {
+        list-style-type: none;
+        li {
+          a {
+            text-decoration: none;
+            font-family: "Montserrat";
+            font-size: 16px;
+            line-height: 32px;
+            color: colors.$bg-white;
+          }
+          .bg-footer__1 {
+            @include functions.font(
+              "Rubik",
+              normal,
+              400,
+              24px,
+              32px,
+              colors.$bg-white
+            );
+          }
+        }
+      }
+    }
+    .footer-bg__text {
+      @include functions.font(
+        "Montserrat",
+        normal,
+        400,
+        16px,
+        27px,
+        colors.$bg-white
+      );
+    }
+    .footer-bg__20 {
+      text-align: end;
+    }
+  }
+}
