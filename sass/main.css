@@ -931,4 +931,283 @@ header .nav ul .sign-btn {
 .grid-sestim {
   display: grid;
   grid-template-columns: 1fr auto;
+}
+.grid-sestim .grid-main .grid-main__texts {
+  padding: 96px 0 0 0;
+}
+.grid-sestim .grid-main .grid-main__texts h1 {
+  width: 70%;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1c3554;
+}
+.grid-sestim .grid-main .grid-main__texts p {
+  width: 80%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #808080;
+}
+.grid-sestim .grid-main .grid-main__danger {
+  padding: 96px 0 0px 0;
+}
+.grid-sestim .grid-main .grid-main__danger h3 {
+  padding: 0 0 40px 0;
+  width: 70%;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1c3554;
+}
+.grid-sestim .grid-main .grid-main__danger .grid-main__row {
+  padding: 40px 0 40px 0;
+  width: 80%;
+  background: #fff5f9;
+  border-radius: 8px;
+}
+.grid-sestim .grid-main .grid-main__danger .grid-main__row .grid-main__flex p {
+  width: 100%;
+  margin-top: 20px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 24px;
+  color: #1c3554;
+}
+.grid-sestim .grid-main .grid-main__danger-2 {
+  padding: 96px 0 40px 0;
+}
+.grid-sestim .grid-main .grid-main__danger-2 h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1c3554;
+}
+.grid-sestim .grid-main .grid-main__danger-2 .grid-main__row-2 {
+  width: 70%;
+  background: #fff5f9;
+  border-radius: 5px;
+  padding: 40px 0 40px 0;
+}
+.grid-sestim .grid-main .grid-main__danger-2 .grid-main__row-2 .grid-main__col-2 p {
+  padding: 10px 0 0 0;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 24px;
+  color: #1c3554;
+}
+.grid-sestim .grid-main__coruseles .grid-main__texts h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1c3554;
+}
+.grid-sestim .grid-main__coruseles .grid-main__texts h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: #1c3554;
+}
+.grid-sestim .grid-main__coruseles .grid-main__bg {
+  background: #fff5f9 !important;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  color: #1c3554;
+}
+.grid-sestim .grid-main__btn {
+  background: #f72585;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.blog-bg {
+  padding: 140px 0 0 0;
+  width: 100%;
+  background: #000000;
+  opacity: 0.5;
+}
+.blog-bg .detail-cours_texts p {
+  padding: 14px 10px 0 10px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 32px;
+  color: #e6e6e6;
+}
+.blog-bg h1 {
+  padding: 0 0 120px 0;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 88px;
+  color: #ffffff;
+}
+
+.blog-bottom {
+  padding: 96px 0 0 0;
+}
+.blog-bottom .blog-div h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1c3554;
+}
+.blog-bottom .blog-div span {
+  padding: 14px 16px 16px 0;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+}
+.blog-bottom .blog-div p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #808080;
+}
+.blog-bottom .blog-div button {
+  padding: 12px 32px;
+  background: #f72585;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+nav .blog-ul li a {
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 32px;
+  color: #cccccc;
+  border: none;
+}
+nav .blog-ul li a:hover {
+  color: #ffffff;
+  background: #f72585;
+  border-radius: 4px;
+}
+
+.accont {
+  padding: 150px 0 0 0;
+}
+.accont .account-kv {
+  width: 150px;
+  height: 150px;
+  background: #cccccc;
+  border-radius: 50%;
+}
+.accont .account-texts h6 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1c3554;
+}
+.accont .account-texts p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #808080;
+}
+
+.account-link a {
+  text-align: center;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1c3554;
+  text-decoration: none;
+}
+.account-link a:hover {
+  color: #1c3554;
+  border-bottom: 5px solid #f72585;
+}
+
+.cards {
+  padding: 40px 0 0 0;
+}
+.cards .card {
+  width: 280px;
+  margin-left: 2px;
+  border: none;
+  transition: 1.5s;
+}
+.cards .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.cards .card img {
+  margin-top: 10px;
+}
+.cards .card .btn-card {
+  display: flex;
+  justify-content: center;
+}
+.cards .card .cards-title h6 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1c3554;
+}
+.cards .card .cards-title b {
+  font-family: "Montserrat";
+  font-size: 12px;
+  line-height: 24px;
+  color: #f72585;
+}
+.cards .card .cards-title .card-icons img {
+  padding: 0 4px 0 0;
+}
+.cards .card .cards-title .card-icons b {
+  padding: 10px 0 0 10px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 24px;
+  color: #808080;
+}
+.cards .card .cards-title .card-del del {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #cccccc;
+}
+.cards .card .cards-title .card-del h3 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1c3554;
+  padding: 8px 0 0 8px;
 }/*# sourceMappingURL=main.css.map */

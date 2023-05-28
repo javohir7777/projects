@@ -80,4 +80,120 @@
 .grid-sestim {
   display: grid;
   grid-template-columns: 1fr auto;
+  .grid-main {
+    .grid-main__texts {
+      padding: 96px 0 0 0;
+      h1 {
+        width: 70%;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #1c3554;
+      }
+      p {
+        width: 80%;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        color: #808080;
+      }
+    }
+    .grid-main__danger {
+      padding: 96px 0 0px 0;
+      h3 {
+        padding: 0 0 40px 0;
+        width: 70%;
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #1c3554;
+      }
+      .grid-main__row {
+        padding: 40px 0 40px 0;
+        width: 80%;
+        background: #fff5f9;
+        border-radius: 8px;
+        .grid-main__flex {
+          p {
+            width: 100%;
+            margin-top: 20px;
+            font-family: "Montserrat";
+            font-size: 14px;
+            line-height: 24px;
+            color: #1c3554;
+          }
+        }
+      }
+    }
+    .grid-main__danger-2 {
+      padding: 96px 0 40px 0;
+      h3 {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #1c3554;
+      }
+      .grid-main__row-2 {
+        width: 70%;
+        background: #fff5f9;
+        border-radius: 5px;
+        padding: 40px 0 40px 0;
+
+        .grid-main__col-2 {
+          p {
+            padding: 10px 0 0 0;
+            font-family: "Montserrat";
+            font-size: 14px;
+            line-height: 24px;
+            color: #1c3554;
+          }
+        }
+      }
+    }
+  }
+  .grid-main__coruseles {
+    .grid-main__texts {
+      h1 {
+        font-family: "Rubik";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #1c3554;
+      }
+      h6 {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 32px;
+        color: #1c3554;
+      }
+    }
+    .grid-main__bg {
+      background: #fff5f9 !important;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 32px;
+      color: #1c3554;
+    }
+  }
+  .grid-main__btn {
+    background: #f72585;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 32px;
+    color: #ffffff;
+  }
 }

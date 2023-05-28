@@ -1,0 +1,117 @@
+@use "../abstract/functions";
+@use "../abstract/colors";
+.accont {
+  padding: 150px 0 0 0;
+  .account-kv {
+    width: 150px;
+    height: 150px;
+    background: #cccccc;
+    border-radius: 50%;
+  }
+  .account-texts {
+    h6 {
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      color: #1c3554;
+    }
+    p {
+      font-family: "Rubik";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #808080;
+    }
+  }
+}
+.account-link {
+  a {
+    text-align: center;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #1c3554;
+    text-decoration: none;
+    &:hover {
+      color: #1c3554;
+      border-bottom: 5px solid #f72585;
+    }
+  }
+}
+.cards {
+  padding: 40px 0 0 0;
+  .card {
+    width: 280px;
+    margin-left: 2px;
+    border: none;
+    transition: 1.5s;
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+    img {
+      margin-top: 10px;
+    }
+    .btn-card {
+      display: flex;
+      justify-content: center;
+    }
+    .cards-title {
+      h6 {
+        @include functions.font(
+          "Rubik",
+          normal,
+          500,
+          16px,
+          24px,
+          colors.$text-Qoramtir
+        );
+      }
+      b {
+        font-family: "Montserrat";
+        font-size: 12px;
+        line-height: 24px;
+        color: colors.$bg-danger;
+      }
+      .card-icons {
+        img {
+          padding: 0 4px 0 0;
+        }
+        b {
+          padding: 10px 0 0 10px;
+          font-family: "Montserrat";
+          font-size: 14px;
+          line-height: 24px;
+          color: #808080;
+        }
+      }
+      .card-del {
+        del {
+          @include functions.font(
+            "Montserrat",
+            normal,
+            400,
+            16px,
+            27px,
+            colors.$text-color
+          );
+        }
+        h3 {
+          @include functions.font(
+            "Rubik",
+            normal,
+            500,
+            24px,
+            32px,
+            colors.$text-Qoramtir
+          );
+          padding: 8px 0 0 8px;
+        }
+      }
+    }
+  }
+}
