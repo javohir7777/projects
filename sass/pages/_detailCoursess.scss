@@ -1,0 +1,83 @@
+@use "../abstract/colors";
+@use "../abstract/functions";
+.nav-success {
+  background-color: #777 !important;
+}
+.detail-cours {
+  padding: 150px 0 0 0;
+  background-color: #777;
+  p {
+    padding: 14px 10px 0 10px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 32px;
+    color: #e6e6e6;
+  }
+  h1 {
+    width: 712px;
+    @include functions.font("Rubik", normal, 700, 48px, 64px, colors.$bg-white);
+  }
+  .detail-cours__icons {
+    b {
+      @include functions.font(
+        "Rubik",
+        normal,
+        500,
+        24px,
+        32px,
+        colors.$bg-white
+      );
+    }
+    span {
+      font-family: "Montserrat";
+      font-size: 14px;
+      line-height: 24px;
+      color: #e6e6e6;
+    }
+  }
+  .detail-cours__all {
+    padding: 44px 0 40px 0;
+    .kv {
+      width: 50px;
+      height: 50px;
+      background: #aaaaaa;
+      border-radius: 50%;
+    }
+    h6 {
+      padding: 3px 0 0 10px;
+      @include functions.font(
+        "Rubik",
+        normal,
+        500,
+        24px,
+        32px,
+        colors.$bg-white
+      );
+    }
+  }
+  .detail-cours__btns {
+    padding: 0 0 80px 0;
+    .detail-cours__btn-1 {
+      padding: 12px 32px;
+      background: colors.$bg-danger;
+      border-radius: 8px;
+      font-family: "Montserrat";
+      font-size: 16px;
+      line-height: 32px;
+      color: colors.$bg-white;
+    }
+    .detail-cours__btn-2 {
+      padding: 12px 32px;
+      background: #fff5f9;
+      border-radius: 8px;
+      font-family: "Montserrat";
+      font-size: 16px;
+      line-height: 32px;
+      color: colors.$bg-danger;
+    }
+  }
+}
+.grid-sestim {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
